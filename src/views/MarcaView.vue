@@ -41,8 +41,7 @@ export default {
   </div>
   <hr />
   <ul>
-    <li v-for="mar
-    ca in marcas" :key="marca.id">
+    <li v-for="marca in marcas" :key="marca.id">
       <span @click="editar(marca)">
         ({{ marca.id }}) - {{ marca.descricao }} -
       </span>
