@@ -2,8 +2,15 @@
   <header>
     <router-link :to="{ name: 'home' }">Home</router-link>
     <router-link to="/categorias">Categorias</router-link>
+    <router-link to="/marcas">Marcas</router-link>
   </header>
   <main>
     <RouterView />
   </main>
 </template>
+
+<style>
+header{
+  padding: 10px;
+}
+</style>
